@@ -1,0 +1,212 @@
+@charset "utf-8";
+.mr36{
+    margin-right: 36px;
+}
+.font14{
+    font-size: 14px;
+}
+.mt150{
+    margin-top: 150px;
+}
+.nomarginr{
+    margin-right: 0px !important;
+}
+/*静态banner*/
+.banner-slider{
+    width: 100%;
+    height: 400px;
+    background: #557cdf;
+    
+}
+.banner-wrap{
+    height: 262px;
+    background: url(../images/banner-bg.jpg) no-repeat center top;
+    padding-top: 138px;
+}
+.banner-wrap .banner-tit{
+font-size: 52px;
+color: #fff;
+}
+.banner-wrap .banner-adv{
+    font-size: 24px;
+    color: #fff;
+    margin-top: 30px;
+}
+/*内容开始*/
+.finance-wrap{
+
+}
+.finance-wrap .list-icon{
+height: 303px;
+background: #e9eaec;
+}
+.finance-wrap .list-icon ul{
+    height: 265px;
+    padding-top: 38px;
+}
+.finance-wrap .list-icon ul li{
+    width: 380px;
+    height: 222px;
+    float: left;
+    margin-right: 30px;
+    overflow: hidden;
+
+}
+.finance-wrap .list-icon ul li:last-child{
+    margin-right: 0px;
+}
+.finance-wrap .list-icon ul li:hover{
+    width: 378px;
+    height: 220px;
+    border: 1px solid #ff8c2f;
+    overflow: hidden;
+}
+.finance-wrap .list-icon ul .li-1:hover{
+    border: 1px solid #3669ce;
+    overflow: hidden;
+}
+.finance-wrap .list-icon ul .li-3:hover{
+    border: 1px solid #11a5c5;
+    overflow: hidden;
+}
+.finance-wrap .list-icon ul .li-1{
+    background-image: url(../images/zt-1.jpg);
+}
+.finance-wrap .list-icon ul .li-2{
+    background-image: url(../images/zt-2.jpg);
+}
+.finance-wrap .list-icon ul .li-3{
+    background-image: url(../images/zt-3.jpg);
+}
+
+.finance-wrap .list-icon ul li{
+    text-align: center;
+
+}
+.finance-wrap .list-icon ul li p{
+    font-size: 24px;
+    margin-top: 160px;
+}
+
+.chain-wrap{
+    height: 695px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.chain-wrap .chain-hd,.organizate-wrap .organizate-hd{
+    font-size: 40px;
+    text-align: center;
+}
+.chain-wrap  .chain-bd{
+margin-top: 40px;
+}
+.chain-wrap .chain-bd ul li{
+width: 580px;
+height: 546px;
+border: 1px solid #e6e6e6;
+float: left;
+position: relative;
+background-color: #fff;
+/*border-top: 5px solid #3776d3;*/
+}
+.chain-wrap .chain-bd ul li .top-line{
+    height: 5px;
+    width: 582px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background: #3776d3;
+}
+.chain-wrap .chain-bd ul li .chain-tit{
+height: 86px;
+line-height: 86px;
+font-size: 26px;
+text-align: center;
+border-bottom:1px dashed #e6e6e6;
+}
+.chain-wrap .chain-bd ul li .chain-con{
+padding-left: 60px;
+padding-top: 50px;
+    width: 392px;
+}
+.chain-wrap .chain-bd ul li .chain-con dl{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.chain-wrap .chain-bd ul li .chain-con dl dt{
+    float: left;
+    width: 70px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+.chain-wrap .chain-bd ul li .chain-con dl dd{
+float: left;
+width: 322px;
+ font-size: 14px;
+ line-height: 24px;
+}
+.chain-wrap .chain-bd ul li .btn{
+    width: 200px;
+    height: 48px;
+    background: #3776d3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 0 none;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.chain-wrap .chain-bd ul li .postion-div{
+    cursor: pointer;
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+}
+.chain-wrap .chain-bd ul li .postion-div:hover{
+    right: 20px;
+}
+
+.loans-wrap{
+    height: 695px;
+
+    padding-bottom: 70px;
+    background: url(../images/xed-bg.jpg) no-repeat bottom left #f0f5f8;
+}
+
+.trade-wrap{
+
+}
+.trade-wrap .chain-bd ul li .chain-con dl dt{
+width: 25px;
+}
+
+.trade-wrap .chain-bd ul li{
+    height: 630px;
+}
+
+.trade-wrap .chain-bd ul li .chain-con dl{
+margin-bottom: 5px;
+}
+.trade-wrap .chain-bd ul li .btn{
+    margin-top: 50px;
+}
+
+.organizate-wrap{
+    padding-top: 30px;
+    height: 400px;
+}
+.organizate-bd{
+    margin-top: 30px;
+}
+.organizate-wrap .organizate-bd ul li{
+    width: 273px;
+    height: 88px;
+    border: 1px solid #e6e6e6;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
