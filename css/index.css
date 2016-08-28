@@ -34,7 +34,7 @@ color: #fff;
 }
 /*内容开始*/
 .finance-wrap{
-
+background: #e9eaec;
 }
 .finance-wrap .list-icon{
 height: 303px;
@@ -43,6 +43,8 @@ background: #e9eaec;
 .finance-wrap .list-icon ul{
     height: 265px;
     padding-top: 38px;
+        width: 1200px;
+    overflow: hidden;
 }
 .finance-wrap .list-icon ul li{
     width: 380px;
